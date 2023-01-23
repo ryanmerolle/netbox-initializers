@@ -1,5 +1,6 @@
 # - name: Disk Drive
 #   slug: disk-drive
+#   description: Spinning and flash based
 #   color: Grey
 # - name: SFP
 #   slug: sfp

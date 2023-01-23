@@ -1,9 +1,9 @@
-from dcim.models import Region, Site
+from dcim.models import Region, Site, SiteGroup
 from tenancy.models import Tenant
 
 from . import BaseInitializer, register_initializer
 
-OPTIONAL_ASSOCS = {"region": (Region, "name"), "tenant": (Tenant, "name")}
+OPTIONAL_ASSOCS = {"region": (Region, "name"), "tenant": (Tenant, "name"), "group": (SiteGroup, "name")}
 
 
 class SiteInitializer(BaseInitializer):

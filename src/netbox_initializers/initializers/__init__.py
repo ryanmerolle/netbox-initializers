@@ -17,6 +17,7 @@ INITIALIZER_ORDER = (
     "tenant_groups",
     "tenants",
     "regions",
+    "site_groups",
     "sites",
     "locations",
     "rack_roles",
@@ -26,6 +27,8 @@ INITIALIZER_ORDER = (
     "manufacturers",
     "platforms",
     "device_roles",
+    "inventory_item_roles",
+    "module_types",
     "device_types",
     "cluster_types",
     "cluster_groups",
@@ -161,9 +164,11 @@ from .device_types import DeviceTypeInitializer
 from .devices import DeviceInitializer
 from .groups import GroupInitializer
 from .interfaces import InterfaceInitializer
+from .inventory_item_roles import InventoryItemRoleInitializer
 from .ip_addresses import IPAddressInitializer
 from .locations import LocationInitializer
 from .manufacturers import ManufacturerInitializer
+from .module_types import ModuleTypeInitializer
 from .object_permissions import ObjectPermissionInitializer
 from .platforms import PlatformInitializer
 from .power_feeds import PowerFeedInitializer
@@ -178,6 +183,7 @@ from .regions import RegionInitializer
 from .rirs import RIRInitializer
 from .route_targets import RouteTargetInitializer
 from .services import ServiceInitializer
+from .site_groups import SiteGroupInitializer
 from .sites import SiteInitializer
 from .tags import TagInitializer
 from .tenant_groups import TenantGroupInitializer
