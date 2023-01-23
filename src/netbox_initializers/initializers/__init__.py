@@ -22,6 +22,7 @@ INITIALIZER_ORDER = (
     "locations",
     "rack_roles",
     "racks",
+    "rack_reservations",
     "power_panels",
     "power_feeds",
     "manufacturers",
@@ -179,6 +180,7 @@ from .primary_ips import PrimaryIPInitializer
 from .providers import ProviderInitializer
 from .rack_roles import RackRoleInitializer
 from .racks import RackInitializer
+from .rack_reservations import RackReservationInitializer
 from .regions import RegionInitializer
 from .rirs import RIRInitializer
 from .route_targets import RouteTargetInitializer

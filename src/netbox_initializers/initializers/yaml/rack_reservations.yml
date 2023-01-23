@@ -1,0 +1,12 @@
+# - description: new server 1
+#   rack: rack-01
+#   units: [1,2]
+#   user: jdoe
+# - description: new server 2
+#   rack: rack-02
+#   units: [1,2]
+#   user: jdoe
+# - description: new server 3
+#   rack: rack-03
+#   units: [1,2,3]
+#   user: jdoe
