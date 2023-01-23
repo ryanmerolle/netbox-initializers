@@ -51,6 +51,7 @@ INITIALIZER_ORDER = (
     "primary_ips",
     "services",
     "providers",
+    "provider_networks",
     "circuit_types",
     "circuits",
     "cables",
@@ -178,6 +179,7 @@ from .prefix_vlan_roles import RoleInitializer
 from .prefixes import PrefixInitializer
 from .primary_ips import PrimaryIPInitializer
 from .providers import ProviderInitializer
+from .provider_networks import ProviderNetworkInitializer
 from .rack_roles import RackRoleInitializer
 from .racks import RackInitializer
 from .rack_reservations import RackReservationInitializer

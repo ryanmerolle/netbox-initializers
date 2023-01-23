@@ -1,0 +1,6 @@
+# - name: Provider1 MPLS
+#   provider: Provider1
+#   service_id: MPLS_123
+# - name: Provider1 VPLS
+#   provider: Provider2
+#   service_id: VPLS_1234
