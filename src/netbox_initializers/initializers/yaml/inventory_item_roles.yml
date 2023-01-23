@@ -1,0 +1,6 @@
+# - name: Disk Drive
+#   slug: disk-drive
+#   color: Grey
+# - name: SFP
+#   slug: sfp
+#   color: Cyan
