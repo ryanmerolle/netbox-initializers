@@ -1,0 +1,10 @@
+# - name: Office
+#   slug: office
+# - name: Datacenter
+#   slug: datacenter
+# - name: Large Office
+#   slug: large-office
+#   parent: Office
+# - name: Small Office
+#   slug: small-office
+#   parent: Office
