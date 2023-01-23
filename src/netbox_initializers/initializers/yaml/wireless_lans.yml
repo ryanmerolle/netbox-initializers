@@ -1,0 +1,21 @@
+## Possible Choices:
+##   status:
+##   - container
+##   - active
+##   - reserved
+##   - deprecated
+##
+## Examples:
+# - description: Guest WiFi
+#   ssid: GUEST
+#   status: active
+#   vlan: vlan1
+# - description: Guest WiFi
+#   ssid: GUEST-Internet
+#   status: active
+#   vlan: vlan999
+# - description: Corporate WiFi
+#   ssid: CORP
+#   status: active
+#   tenant: tenant1
+#   vlan: vlan2

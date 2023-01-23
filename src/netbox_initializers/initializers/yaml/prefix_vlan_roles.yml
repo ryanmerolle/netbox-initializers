@@ -1,2 +1,4 @@
 # - name: Main Management
 #   slug: main-management
+# - name: Guest Internet
+#   slug: guest-internet

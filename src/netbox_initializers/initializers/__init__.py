@@ -55,6 +55,8 @@ INITIALIZER_ORDER = (
     "circuit_types",
     "circuits",
     "cables",
+    "wireless_lan_groups",
+    "wireless_lans",
     "contact_groups",
     "contact_roles",
     "contacts",
@@ -199,3 +201,5 @@ from .vlan_groups import VLANGroupInitializer
 from .vlans import VLANInitializer
 from .vrfs import VRFInitializer
 from .webhooks import WebhookInitializer
+from .wireless_lan_groups import WirelessLANGroupInitializer
+from .wireless_lans import WirelessLANInitializer

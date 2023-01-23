@@ -1,0 +1,7 @@
+# - name: Corporate
+#   slug: coporate
+# - name: Guest
+#   slug: guest
+# - name: Guest Internet
+#   slug: guest-internet
+#   parent: Guest
