@@ -10,6 +10,8 @@ from dcim.models.device_component_templates import (
     PowerOutletTemplate,
     PowerPortTemplate,
     RearPortTemplate,
+    ModuleBayTemplate,
+    InventoryItemTemplate,
 )
 from tenancy.models import Tenant
 from utilities.forms.utils import expand_alphanumeric_pattern
@@ -29,6 +31,8 @@ SUPPORTED_COMPONENTS = {
     "rear_ports": (RearPortTemplate, ["name"]),
     "front_ports": (FrontPortTemplate, ["name"]),
     "device_bays": (DeviceBayTemplate, ["name"]),
+    "module_bays": (ModuleBayTemplate, ["name"]),
+    "inventory_items": (InventoryItemTemplate, ["name"]),
 }
 
 
