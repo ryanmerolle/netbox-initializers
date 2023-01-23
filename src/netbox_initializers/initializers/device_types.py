@@ -1,6 +1,6 @@
 from typing import List
 
-from dcim.models import DeviceType, Manufacturer, Region
+from dcim.models import DeviceType, Manufacturer
 from dcim.models.device_component_templates import (
     ConsolePortTemplate,
     ConsoleServerPortTemplate,
@@ -13,14 +13,13 @@ from dcim.models.device_component_templates import (
     ModuleBayTemplate,
     InventoryItemTemplate,
 )
-from tenancy.models import Tenant
 from utilities.forms.utils import expand_alphanumeric_pattern
 
 from . import BaseInitializer, register_initializer
 
 MATCH_PARAMS = ["manufacturer", "model", "slug"]
 REQUIRED_ASSOCS = {"manufacturer": (Manufacturer, "name")}
-OPTIONAL_ASSOCS = {"region": (Region, "name"), "tenant": (Tenant, "name")}
+OPTIONAL_ASSOCS = {}
 NESTED_ASSOCS = {"rear_port": (RearPortTemplate, "name"), "power_port": (PowerPortTemplate, "name")}
 SUPPORTED_COMPONENTS = {
     "interfaces": (InterfaceTemplate, ["name"]),
