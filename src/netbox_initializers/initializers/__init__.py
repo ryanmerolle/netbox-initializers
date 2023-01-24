@@ -50,6 +50,7 @@ INITIALIZER_ORDER = (
     "ip_addresses",
     "primary_ips",
     "l2vpns",
+    "service_templates",
     "services",
     "providers",
     "provider_networks",
@@ -191,6 +192,7 @@ from .regions import RegionInitializer
 from .rirs import RIRInitializer
 from .route_targets import RouteTargetInitializer
 from .services import ServiceInitializer
+from .service_templates import ServiceTemplateInitializer
 from .site_groups import SiteGroupInitializer
 from .sites import SiteInitializer
 from .tags import TagInitializer
