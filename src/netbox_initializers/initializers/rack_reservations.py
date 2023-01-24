@@ -1,6 +1,6 @@
 from dcim.models import Rack, RackReservation
-from tenancy.models import Tenant
 from django.contrib.auth.models import User
+from tenancy.models import Tenant
 
 from . import BaseInitializer, register_initializer
 

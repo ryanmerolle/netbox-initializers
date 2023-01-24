@@ -21,6 +21,9 @@
 #   slug: other
 #   custom_field_data:
 #     text_field: Description
+#   module_bays:
+#     - name: bay1
+#     - name: bay2
 #   interfaces:
 #     - name: eth0
 #       type: 1000base-t

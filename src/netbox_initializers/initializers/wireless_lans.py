@@ -1,6 +1,6 @@
-from wireless.models import WirelessLAN, WirelessLANGroup
 from ipam.models import VLAN
 from tenancy.models import Tenant
+from wireless.models import WirelessLAN, WirelessLANGroup
 
 from . import BaseInitializer, register_initializer
 

@@ -7,11 +7,11 @@ from dcim.models.device_component_templates import (
     DeviceBayTemplate,
     FrontPortTemplate,
     InterfaceTemplate,
+    InventoryItemTemplate,
+    ModuleBayTemplate,
     PowerOutletTemplate,
     PowerPortTemplate,
     RearPortTemplate,
-    ModuleBayTemplate,
-    InventoryItemTemplate,
 )
 from utilities.forms.utils import expand_alphanumeric_pattern
 
