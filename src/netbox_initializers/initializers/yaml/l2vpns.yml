@@ -1,0 +1,8 @@
+# - name: L2VPN-1
+#   slug: l2vpn-1
+#   type: VXLAN
+#   tenant: tenant1
+# - name: L2VPN-2
+#   slug: l2vpn-2
+#   type: VPLS
+#   identifier: 1

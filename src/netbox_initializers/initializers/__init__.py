@@ -49,6 +49,7 @@ INITIALIZER_ORDER = (
     "prefixes",
     "ip_addresses",
     "primary_ips",
+    "l2vpns",
     "services",
     "providers",
     "provider_networks",
@@ -170,6 +171,7 @@ from .groups import GroupInitializer
 from .interfaces import InterfaceInitializer
 from .inventory_item_roles import InventoryItemRoleInitializer
 from .ip_addresses import IPAddressInitializer
+from .l2vpns import L2VPNInitializer
 from .locations import LocationInitializer
 from .manufacturers import ManufacturerInitializer
 from .module_types import ModuleTypeInitializer
@@ -180,11 +182,11 @@ from .power_panels import PowerPanelInitializer
 from .prefix_vlan_roles import RoleInitializer
 from .prefixes import PrefixInitializer
 from .primary_ips import PrimaryIPInitializer
-from .providers import ProviderInitializer
 from .provider_networks import ProviderNetworkInitializer
+from .providers import ProviderInitializer
+from .rack_reservations import RackReservationInitializer
 from .rack_roles import RackRoleInitializer
 from .racks import RackInitializer
-from .rack_reservations import RackReservationInitializer
 from .regions import RegionInitializer
 from .rirs import RIRInitializer
 from .route_targets import RouteTargetInitializer
